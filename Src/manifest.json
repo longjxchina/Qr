@@ -1,0 +1,19 @@
+﻿{
+	"manifest_version": 2,
+	"name": "UrlQr",
+	"version": "1.0",
+	"description": "网址二维码",
+	"browser_action": {
+		"default_icon": "images/bicon.png",
+		"default_title": "网址二维码",
+        "default_popup": "html/popup.html"
+	},
+	"icons": {
+		"16": "images/icon.png",
+		"48": "images/icon.png",
+		"128": "images/icon.png"
+	},
+	"permissions": [
+        "tabs"
+    ]
+}
